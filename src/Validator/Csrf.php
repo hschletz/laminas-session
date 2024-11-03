@@ -200,7 +200,7 @@ final class Csrf extends AbstractValidator
      */
     public function setTimeout(int|null $ttl): void
     {
-        $this->timeout = $ttl ?? null;
+        $this->timeout = $ttl;
     }
 
     /**
